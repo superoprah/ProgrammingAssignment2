@@ -30,3 +30,11 @@ cacheSolve <- function(x, ...) {
   m
 }
 
+#example solution for matrix(1:4,2,2)
+#> #
+#> g <- makeCacheMatrix(matrix(1:4,2,2))
+#> cacheSolve(g)
+#[,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
+
